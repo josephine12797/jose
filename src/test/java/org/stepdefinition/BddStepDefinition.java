@@ -40,6 +40,12 @@ public class BddStepDefinition extends BaseClass {
 	   System.out.println("success");
 	}
 
+	@When("User should type invalid username and invalid password")
+	public void user_should_type_invalid_username_and_invalid_password() {
+	    FbPojo f = new FbPojo();
+	    fill(f.getTxtUser(),"greens");
+	    fill(f.getTxtPass(), "greens@123");
+	}
 
 
 }
