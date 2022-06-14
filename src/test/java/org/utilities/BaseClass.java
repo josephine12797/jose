@@ -287,10 +287,13 @@ public class BaseClass  {
 	}
     
     //date and time 
-    public void dnt() {
+    public static void dnt() {
     	Date date = new Date();
     	System.out.println(date);
 	} 
     
+    public static void testcase() {
+System.out.println("test case 1");
+	}
    
 	}
